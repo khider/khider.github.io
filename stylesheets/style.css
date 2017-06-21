@@ -15,5 +15,7 @@ h2{color: FireBrick;
   font-family: 'Raleway', serif;
   front-size: 16px;}
 
-/*Table*/
-  
+/* IDs and classes rules*/
+#date{font-variant: small-caps;}
+
+#degree{font-style: oblique;}
