@@ -1,10 +1,19 @@
 body{background-color: #fcfcfc;
     font-weight: 300;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', serif;
     font-size: 16px;
     color: Grey;}
 
 /*headers styling*/
 h1{color: Black;
   font-weight: 300;
-  font-family: 'Raleway', sans-serif;}
+  font-family: 'Raleway', serif;
+  font-size: 20px;}
+
+h2{color: FireBrick;
+  font-weight: 300;
+  font-family: 'Raleway', serif;
+  front-size: 16px;}
+
+/*Table*/
+  
