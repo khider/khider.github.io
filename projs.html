@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<title>Deborah Khider's personal webpage - Projects</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./stylesheets/w3cstyle.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./stylesheets/academicons.css"/>
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+.container {
+  position: relative;
+  width: 80%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 400px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #009688;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+<body class="w3-light-grey">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+	<div class="w3-bar w3-teal w3-margin-bottom w3-card-4">
+		<a href="index.html" class="w3-bar-item w3-button w3-padding-xlarge">HOME</a>
+		<a href="pubs.html" class="w3-bar-item w3-button w3-padding-xlarge">PUBLICATIONS</a>
+		<a href="#" class="w3-bar-item w3-button w3-padding-xlarge">PROJECTS</a>
+		<a href="teaching.html" class="w3-bar-item w3-button w3-padding-xlarge">TEACHING</a>
+		<a href="presentations.html" class="w3-bar-item w3-button w3-padding-xlarge">PRESENTATIONS</a>			
+	</div>
+
+<div class="w3-row-padding">
+	<p> Hover on a project to learn more.</p>
+<!-- boxes -->
+<div class="w3-third">
+	
+<div class="container">
+  <img src="./image/autoTS.png" alt="autoTS" class="image">
+  <div class="overlay">
+    <div class="text">
+		<h3><a href="https://knowledgecaptureanddiscovery.github.io/autoTS/">autoTS</a></h3>
+		<p>Automated Machine Learning for Time Series Analysis.</p>
+		</div>
+  </div>
+</div>
+	</div>	
+
+<div class="w3-third">
+<div class="container">
+  <img src="./image/mint.png" alt="Mint Logo" class="image">
+  <div class="overlay">
+    <div class="text">
+		<h3><a href="http://mint-project.info/overview.html">MINT</a></h3>
+		<p>MINT aims to develop an environment in which models fron different disciplines can be intergrated seamlessly.</p>
+	  </div>
+  </div>
+</div>
+	</div>	
+	
+<div class="w3-third">
+<div class="container">
+  <img src="./image/linkedEarth.png" alt="LinkedEarth Logo" class="image">
+  <div class="overlay">
+    <div class="text">
+		<h3><a href="http://linked.earth">LinkedEarth</a></h3>
+		<p>The EarthCube-funded LinkedEarth project aims at helping paleogeoscientists to better organize and share data.</p>
+	  </div>
+  </div>
+</div>
+	</div>	
+	</div>
+	
+ <!-- End Page Container -->
+</div>
+</body>
+</html>
